@@ -7,7 +7,7 @@ import (
 )
  
 
-func main() {
+func main() { 
 	err := dbop.InitDB()
 	if err != nil {
 		fmt.Println(err)

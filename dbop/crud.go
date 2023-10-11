@@ -15,7 +15,7 @@ type User struct {
 	Name string
 	Age  int
 	Money int
-}
+} 
 
 
 func InitDB() error {
