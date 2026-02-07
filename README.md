@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # view-窗口控制类
      FileReader_Thread.h \文件读取线程
      ImgCropConfig.h \图像对齐参数
@@ -28,4 +29,36 @@
      randomdelete.h \图像随机删除
      rotatecorrect.h \图像旋转矫正
 
+=======
+# view-窗口控制类
+     FileReader_Thread.h \文件读取线程
+     ImgCropConfig.h \图像对齐参数
+     autolinefinder.h \直线检测界面
+     basefileinput.h \文件输入界面
+     basepara.h \主控参数界面
+     binarization.h \二值化界面
+     computeredress.h \图像对齐设置界面
+     cropthread.h \图像对齐线程
+     csvfileinfo.h \CSV文件设置
+     csvreader.h \CSV文件读取
+     filereader.h \文件读取
+     filereaderthread.h \文件读取线程
+     fileselect.h \文件选择
+     genchipdesignpara.h \参考图生成
+     houghlinesetting.h \直线检测设置
+     imagecropthreadinfo.h \图像对齐线程设置
+     imageformat.h \图像格式工具
+     imagerotatepara.h \图像旋转设置
+     imgFeatureTool.h \图像处理工具
+     imgcutthread.h \图像裁剪线程
+     inputfile.h \文件输入
+     linefeature.h \直线特征处理
+     linefinder.h \直线检测
+     logger.h \日志
+     logictestfileinput.h \日志文件输入
+     qgraphicsviewifr.h \图像窗口
+     randomdelete.h \图像随机删除
+     rotatecorrect.h \图像旋转矫正
+
+>>>>>>> 3a7b4324667a235e742ed5952d47d3ea6fd845cb
 	

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
@@ -614,3 +615,621 @@
  <resources/>
  <connections/>
 </ui>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1320</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QtMaterialIconButton" name="btnExit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>590</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="leftMenu">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>5</y>
+      <width>324</width>
+      <height>632</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>324</width>
+      <height>632</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>324</width>
+      <height>632</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(14, 26, 50);</string>
+    </property>
+    <widget class="GenerateReferenceMap" name="page">
+     <widget class="QPushButton" name="btnExit_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>580</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>显示日志</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>500</y>
+      <width>981</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>979</width>
+       <height>148</height>
+      </rect>
+     </property>
+     <widget class="StepView" name="step5" native="true">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="StepView" name="step7" native="true">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="StepView" name="step2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>3</y>
+        <width>130</width>
+        <height>132</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>132</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>135</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="StepView" name="step4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="StepView" name="step6" native="true">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="StepView" name="step1" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>3</y>
+        <width>130</width>
+        <height>132</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>132</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>135</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+     <widget class="StepView" name="step3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QScrollArea" name="scrollDebug">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>500</y>
+      <width>981</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollDebugWidge">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>979</width>
+       <height>148</height>
+      </rect>
+     </property>
+     <widget class="QtMaterialFlatButton" name="stepDebug1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QtMaterialFlatButton" name="stepDebug2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QtMaterialFlatButton" name="stepDebug3">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QtMaterialFlatButton" name="stepDebug4">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QtMaterialFlatButton" name="stepDebug5">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QtMaterialFlatButton" name="stepDebug6">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QtMaterialFlatButton" name="stepDebug7">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>3</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>130</width>
+        <height>130</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGraphicsViewIFR" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>5</y>
+      <width>480</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsViewIFR" name="graphicsView_2">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>5</y>
+      <width>480</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsViewIFR" name="graphicsView_3">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>5</y>
+      <width>480</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsViewIFR" name="graphicsView_4">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>5</y>
+      <width>480</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsViewIFR" name="graphicsView_5">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>5</y>
+      <width>480</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsViewIFR" name="graphicsView_6">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>5</y>
+      <width>480</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsViewIFR" name="graphicsView_7">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>5</y>
+      <width>480</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsViewIFR" name="graphicsView_8">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>5</y>
+      <width>480</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>leftMenu</zorder>
+   <zorder>btnExit</zorder>
+   <zorder>scrollArea</zorder>
+   <zorder>scrollDebug</zorder>
+   <zorder>graphicsView</zorder>
+   <zorder>graphicsView_2</zorder>
+   <zorder>graphicsView_3</zorder>
+   <zorder>graphicsView_4</zorder>
+   <zorder>graphicsView_5</zorder>
+   <zorder>graphicsView_6</zorder>
+   <zorder>graphicsView_7</zorder>
+   <zorder>graphicsView_8</zorder>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QtMaterialFlatButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">components/qtmaterialflatbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QtMaterialIconButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">components/qtmaterialiconbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>StepView</class>
+   <extends>QWidget</extends>
+   <header>view/stepview.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>GenerateReferenceMap</class>
+   <extends>QWidget</extends>
+   <header>module/generatereferencemap.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QGraphicsViewIFR</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">view/qgraphicsviewifr.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>btnExit</tabstop>
+  <tabstop>scrollArea</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
+>>>>>>> 3a7b4324667a235e742ed5952d47d3ea6fd845cb

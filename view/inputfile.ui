@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>inputFile</class>
@@ -506,3 +507,513 @@ color:#444444;</string>
  <resources/>
  <connections/>
 </ui>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inputFile</class>
+ <widget class="QWidget" name="inputFile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>310</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QtMaterialIconButton" name="btnOpen">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>40</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="fix">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>271</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit
+{ 
+border-color: rgb(42, 43, 64);  
+border: 2px solid #89b3df;  
+border-left: none; 
+} 
+</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edit_file">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>271</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit
+{
+font: 18px &quot;微软雅黑&quot;;  
+border-color: rgb(42, 43, 64);  
+border: 2px solid #89b3df;  
+border-right: none; 
+} 
+
+
+QScrollBar:vertical{
+    background:#e9f1f9; 
+    max-width:0px;
+}
+
+QScrollBar::handle:vertical{
+    background:rgb(0, 188, 212);
+    min-height:50px; 
+}
+
+QScrollBar::handle:vertical:hover{
+    background:rgb(0, 188, 212);
+}
+
+QScrollBar::handle:vertical:pressed{
+    background:rgb(0, 188, 212);
+} 
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>141</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20px &quot;微软雅黑&quot;;
+color:#444444;</string>
+   </property>
+   <property name="text">
+    <string>实际数据路径:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="fixline" native="true">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>42</y>
+     <width>10</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>10</width>
+     <height>46</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>10</width>
+     <height>46</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QtMaterialIconButton" name="btnOpen_2">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>158</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="fix_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>158</y>
+     <width>271</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit
+{ 
+border-color: rgb(42, 43, 64);  
+border: 2px solid #89b3df;  
+border-left: none; 
+} 
+</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edit_file_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>158</y>
+     <width>271</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit
+{
+font: 18px &quot;微软雅黑&quot;;  
+border-color: rgb(42, 43, 64);  
+border: 2px solid #89b3df;  
+border-right: none; 
+} 
+
+
+QScrollBar:vertical{
+    background:#e9f1f9; 
+    max-width:0px;
+}
+
+QScrollBar::handle:vertical{
+    background:rgb(0, 188, 212);
+    min-height:50px; 
+}
+
+QScrollBar::handle:vertical:hover{
+    background:rgb(0, 188, 212);
+}
+
+QScrollBar::handle:vertical:pressed{
+    background:rgb(0, 188, 212);
+} 
+</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="fixline_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>160</y>
+     <width>10</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>10</width>
+     <height>46</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>10</width>
+     <height>46</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>141</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20px &quot;微软雅黑&quot;;
+color:#444444;</string>
+   </property>
+   <property name="text">
+    <string>输入数据路径:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="fix_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>268</y>
+     <width>271</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit
+{ 
+border-color: rgb(42, 43, 64);  
+border: 2px solid #89b3df;  
+border-left: none; 
+} 
+</string>
+   </property>
+  </widget>
+  <widget class="QtMaterialIconButton" name="btnOpen_3">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>268</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="edit_file_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>268</y>
+     <width>271</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit
+{
+font: 18px &quot;微软雅黑&quot;;  
+border-color: rgb(42, 43, 64);  
+border: 2px solid #89b3df;  
+border-right: none; 
+} 
+
+
+QScrollBar:vertical{
+    background:#e9f1f9; 
+    max-width:0px;
+}
+
+QScrollBar::handle:vertical{
+    background:rgb(0, 188, 212);
+    min-height:50px; 
+}
+
+QScrollBar::handle:vertical:hover{
+    background:rgb(0, 188, 212);
+}
+
+QScrollBar::handle:vertical:pressed{
+    background:rgb(0, 188, 212);
+} 
+</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="fixline_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>270</y>
+     <width>10</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>10</width>
+     <height>46</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>10</width>
+     <height>46</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>291</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 75 20px &quot;微软雅黑&quot;;
+color:#444444;</string>
+      </property>
+      <property name="text">
+       <string>参考数据路径:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_2">
+      <property name="text">
+       <string>调试模式</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>fix</zorder>
+  <zorder>edit_file</zorder>
+  <zorder>label</zorder>
+  <zorder>fixline</zorder>
+  <zorder>btnOpen</zorder>
+  <zorder>fix_2</zorder>
+  <zorder>edit_file_2</zorder>
+  <zorder>fixline_2</zorder>
+  <zorder>btnOpen_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>fix_3</zorder>
+  <zorder>edit_file_3</zorder>
+  <zorder>fixline_3</zorder>
+  <zorder>btnOpen_3</zorder>
+  <zorder>layoutWidget</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QtMaterialIconButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">components/qtmaterialiconbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
+>>>>>>> 3a7b4324667a235e742ed5952d47d3ea6fd845cb

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef BINARIZATION_H
 #define BINARIZATION_H
 
@@ -39,3 +40,46 @@ private:
 };
 
 #endif // BINARIZATION_H
+=======
+#ifndef BINARIZATION_H
+#define BINARIZATION_H
+
+#include <QWidget>
+
+namespace Ui {
+class binarization;
+}
+
+class binarization : public QWidget
+{
+    Q_OBJECT
+
+public:
+    explicit binarization(QWidget *parent = nullptr);
+    ~binarization();
+signals:
+    void signalRunBinarizaType(int);
+    void signalSetThreasholdType(int);
+    void signalRunThreashold(int);
+private slots:
+    void on_threasholdTypeButton_clicked();
+
+    void on_workModeButton_clicked();
+
+    void on_wallButton_clicked();
+
+    void on_triangleButton_clicked();
+
+    void on_otsuButton_clicked();
+
+    void on_horizontalSlider_threashold_sliderMoved(int position);
+
+private:
+    Ui::binarization *ui;
+    int binarizaType=0;
+    int threasholdType = 0;
+    int workMode = 0;
+};
+
+#endif // BINARIZATION_H
+>>>>>>> 3a7b4324667a235e742ed5952d47d3ea6fd845cb

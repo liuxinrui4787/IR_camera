@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>lineFeature</class>
@@ -94,3 +95,101 @@
  <resources/>
  <connections/>
 </ui>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>lineFeature</class>
+ <widget class="QWidget" name="lineFeature">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>390</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="workModeButton">
+     <property name="text">
+      <string>自动</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="AutoLineFinder" name="autoLine_widget" native="true"/>
+   </item>
+   <item>
+    <widget class="HoughLineSetting" name="hough_widget" native="true"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="deleteLineButton">
+       <property name="text">
+        <string>删除直线</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mouseButton">
+       <property name="text">
+        <string>鼠标</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="saveLineButton">
+     <property name="text">
+      <string>保存直线</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="AggregateLineButton">
+     <property name="text">
+      <string>聚合直线</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>199</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AutoLineFinder</class>
+   <extends>QWidget</extends>
+   <header>view/autolinefinder.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>HoughLineSetting</class>
+   <extends>QWidget</extends>
+   <header>view/houghlinesetting.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
+>>>>>>> 3a7b4324667a235e742ed5952d47d3ea6fd845cb

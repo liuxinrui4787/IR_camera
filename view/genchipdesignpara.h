@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef GENCHIPDESIGNPARA_H
 #define GENCHIPDESIGNPARA_H
 
@@ -28,3 +29,35 @@ private:
 };
 
 #endif // GENCHIPDESIGNPARA_H
+=======
+#ifndef GENCHIPDESIGNPARA_H
+#define GENCHIPDESIGNPARA_H
+
+#include <QWidget>
+
+namespace Ui {
+class genChipDesignPara;
+}
+
+class genChipDesignPara : public QWidget
+{
+    Q_OBJECT
+
+public:
+    explicit genChipDesignPara(QWidget *parent = nullptr);
+    ~genChipDesignPara();
+    int scale = 1500;
+
+signals:
+    void signalGenChipDesignPara(int offsetType);
+private slots:
+    void on_startButton_clicked();
+
+    void on_spinBox_scale_valueChanged(const QString &arg1);
+
+private:
+    Ui::genChipDesignPara *ui;
+};
+
+#endif // GENCHIPDESIGNPARA_H
+>>>>>>> 3a7b4324667a235e742ed5952d47d3ea6fd845cb

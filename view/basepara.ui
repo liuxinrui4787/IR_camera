@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>basePara</class>
@@ -52,3 +53,59 @@
  <resources/>
  <connections/>
 </ui>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>basePara</class>
+ <widget class="QWidget" name="basePara">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>311</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>311</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <widget class="genChipDesignPara" name="page"/>
+   <widget class="computeRedress" name="page_2"/>
+   <widget class="imageRotatePara" name="page_3"/>
+   <widget class="QWidget" name="page_4"/>
+   <widget class="QWidget" name="page_5"/>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>genChipDesignPara</class>
+   <extends>QWidget</extends>
+   <header>view/genchipdesignpara.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>computeRedress</class>
+   <extends>QWidget</extends>
+   <header>view/computeredress.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>imageRotatePara</class>
+   <extends>QWidget</extends>
+   <header>view/imagerotatepara.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
+>>>>>>> 3a7b4324667a235e742ed5952d47d3ea6fd845cb
