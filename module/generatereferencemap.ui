@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GenerateReferenceMap</class>
+ <widget class="QWidget" name="GenerateReferenceMap">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>324</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="bottomMenu">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>165</y>
+     <width>310</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>310</width>
+     <height>411</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>310</width>
+     <height>411</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+background-color: rgb(236, 232, 232);</string>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="BaseFileInput" name="page1">
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="basePara" name="page"/>
+   <widget class="randomDelete" name="page_2"/>
+   <widget class="binarization" name="page_3"/>
+   <widget class="rotateCorrect" name="page_4"/>
+   <widget class="QWidget" name="page_5"/>
+   <widget class="QWidget" name="page2">
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 136);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="topMenu" native="true">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>7</y>
+     <width>310</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>310</width>
+     <height>150</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>310</width>
+     <height>150</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;
+background-color: rgb(236, 232, 232);</string>
+   </property>
+   <widget class="QtMaterialFlatButton" name="btnFile">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>7</y>
+      <width>65</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>文件选择</string>
+    </property>
+   </widget>
+   <widget class="QtMaterialFlatButton" name="btnProportion">
+    <property name="geometry">
+     <rect>
+      <x>84</x>
+      <y>7</y>
+      <width>65</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>参数设置</string>
+    </property>
+   </widget>
+   <widget class="QtMaterialFlatButton" name="btnProportion_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>7</y>
+      <width>65</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>随机删除</string>
+    </property>
+   </widget>
+   <widget class="QtMaterialFlatButton" name="btnProportion_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>7</y>
+      <width>65</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>二值化</string>
+    </property>
+   </widget>
+   <widget class="QtMaterialFlatButton" name="btnProportion_4">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>80</y>
+      <width>65</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>旋转矫正</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QtMaterialFlatButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">components/qtmaterialflatbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>randomDelete</class>
+   <extends>QWidget</extends>
+   <header>view/randomdelete.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>binarization</class>
+   <extends>QWidget</extends>
+   <header location="global">view/binarization.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>rotateCorrect</class>
+   <extends>QWidget</extends>
+   <header>view/rotatecorrect.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>basePara</class>
+   <extends>QWidget</extends>
+   <header>view/basepara.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BaseFileInput</class>
+   <extends>QWidget</extends>
+   <header>view/basefileinput.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

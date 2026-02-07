@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BaseFileInput</class>
+ <widget class="QWidget" name="BaseFileInput">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>311</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>311</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <widget class="inputFile" name="page"/>
+   <widget class="FileSelect" name="page_2"/>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>inputFile</class>
+   <extends>QWidget</extends>
+   <header>view/inputfile.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FileSelect</class>
+   <extends>QWidget</extends>
+   <header>view/fileselect.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
